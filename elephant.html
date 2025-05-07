@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Elephants</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <!-- پس‌زمینه ثابت -->
+    <div class="background">
+        <img src="Jowhareh_galleries_10_poster_47057474-b96c-4443-9cef-216a0579d9d1.jpg" alt="تصویر پس‌زمینه">
+    </div>
+
+    <!-- نوار ناوبری -->
+    <nav id="navbar-example2" class="navbar px-3 mb-3">
+        <a class="navbar-brand" href="#">!به سایت فیل شناسی خوش آمدید</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#section1">ساختار اجتماعی فیل ها</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section2">حافظه قوی</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                    ویژگی های دیگر
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#section3">همدلی فیل ها</a></li>
+                    <li><a class="dropdown-item" href="#section4">مغز بزرگ و پیشرفته</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- ظرف اصلی اسکرول برای Scrollspy -->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-container">
+        <!-- بخش ۱ - راست چین -->
+        <section class="scroll-section right-section">
+            <div id="section1" class="content">
+                <img src="Jowhareh_galleries_10_poster_13785cb3-66a7-449c-8a69-4908b1242132.jpg" alt="ساختار اجتماعی فیل ها">
+                <p>فیل‌ ها در گروه ‌های خانوادگی زندگی می‌کنند که توسط یک ماده سالار هدایت می‌ شوند. این گروه‌ ها معمولاً شامل چندین فیل بالغ و بچه ‌های آن‌ها هستند. فیل‌ها رفتارهای اجتماعی پیچیده‌ ای دارند و از یکدیگر مراقبت می‌ کنند. آن‌ ها حتی برای اعضای گروه خود عزاداری می‌ کنند و به محل مرگ آن‌ها باز می‌گردند.</p>
+            </div>
+        </section>
+        <!-- بخش ۲ - چپ چین -->
+        <section id="section2" class="scroll-section left-section">
+            <div class="content">
+                <img src="Jowhareh_galleries_10_poster_b57b94bc-03e2-45f5-a935-255c18d7a84b.jpg" alt="حافظه قوی">
+                <p>فیل‌ها به داشتن حافظه‌ای قوی مشهور هستند. آن‌ها می‌توانند مسیرهای مهاجرتی، منابع آب، و حتی انسان‌هایی که سال‌ها پیش دیده‌اند را به خاطر بسپارند. این توانایی به بقای آن‌ها کمک می‌کند. همچنین، فیل‌ها می‌توانند مکان‌هایی را که خطرناک بوده‌اند، مانند مناطقی که شکارچیان در آن حضور داشته‌اند، به یاد بیاورند و از آن‌ها دوری کنند.</p>
+            </div>
+        </section>
+        <!-- بخش ۳ - راست چین -->
+        <section id="section3" class="scroll-section right-section">
+            <div class="content">
+                <img src="Jowhareh_galleries_10_poster_ca38dce3-791a-4248-9bfd-21d125a1d68e.jpg" alt="همدلی فیل ها">
+                <p>یکی از رفتارهای منحصر‌به‌فرد فیل‌ها، سوگواری برای مردگان است. آن‌ها به محل مرگ همنوعان خود بازمی‌گردند، استخوان‌های آن‌ها را لمس می‌کنند و حتی ممکن است مدتی در کنار آن‌ها بمانند. این رفتار نشان‌دهنده سطح بالای احساسات و همدلی در میان فیل‌هاست.</p>
+            </div>
+        </section>
+        <!-- بخش ۴ - چپ چین -->
+        <section id="section4" class="scroll-section left-section">
+            <div class="content">
+                <img src="Jowhareh_galleries_10_poster_f5c769fb-87e6-46e7-b854-9b3ad4428106.jpg" alt="مغز بزرگ و پیشرفته">
+                <p>فیل‌ها بزرگ‌ترین مغز را در میان حیوانات خشکی دارند که وزن آن تا ۵.۵ کیلوگرم می‌رسد. این مغز پیچیده به آن‌ها توانایی حل مسئله، یادگیری، و احساسات پیچیده را می‌دهد. فیل‌ها قادرند خود را در آینه تشخیص دهند، که نشان‌دهنده سطح بالای آگاهی آن‌هاست.</p>
+            </div>
+        </section>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+
+
+
+    <!-- اسکریپت بوت استرپ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
